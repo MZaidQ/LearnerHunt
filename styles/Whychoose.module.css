@@ -1,0 +1,102 @@
+.var {
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    padding: 2rem 0rem;
+
+}
+.contain {
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainHeading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0151c1;
+}
+
+
+.contain p {
+    margin: 5px auto;
+    color: #8C8C8C;
+    padding: 0 6rem;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.cardBox {
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+    background-color: #0151c1;
+    color: white;
+    overflow: hidden;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+.whyBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.whyBox img{
+    transition: 0.8s;
+    cursor: pointer;
+}
+.whyBox img:hover{
+    transform: rotateZ(360deg);
+}
+.imageCard {
+    padding: 1rem;
+}
+.cardContent{
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.cardBox:hover {
+    border: 2px solid #0151c1;
+    background-color: white;
+    color: #0151c1;
+    cursor: pointer;
+    border-radius: 30px;
+    transform: scale(1.10);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.imageContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width:768px) {
+    .mainHeading {
+        font-size: 32px;
+    }
+    .contain p {
+        padding: 0 1rem;
+    }
+    .whychoosepara{
+        display: none;
+    }
+    .imageContainer {
+        flex-direction: column;
+    }
+    .cardBox {
+        height: 120px;
+        padding: 0rem;
+    }
+}
+
+
+

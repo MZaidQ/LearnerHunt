@@ -1,0 +1,78 @@
+.colleges-slug{
+    padding-bottom: 2.5rem;
+}
+.colleges-slug .banner-img{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.colleges-slug .content-section{
+    padding-top: 2.5rem;
+}
+.colleges-slug .content-section .heading-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.colleges-slug .content-section .heading-section .left-div{
+    width: 100px;
+}
+.colleges-slug .content-section .heading-section .left-div img{
+    width: 100%;
+    height: auto;
+}
+.colleges-slug .content-section .heading-section .right-div{
+    width: calc(100% - 100px);
+    padding-left: 1rem;
+}
+.colleges-slug .content-section .heading-section .right-div img{
+    width: 20px;
+    height: auto;
+    margin:0 5px;
+}
+.colleges-slug .content-section .description-section{
+    text-align: justify;
+}
+.colleges-slug .content-section .small-description h2{
+    margin: 2rem 0rem 1rem 0rem;
+}
+.colleges-slug .content-section .small-description p{
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.colleges-slug .content-section .small-description .form-buttons{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.colleges-slug .content-section .small-description .form-buttons button{
+    padding: 0.5rem;
+    background-color: #0151c1;
+    color: #fff;
+    border-radius: 25px;
+}
+.colleges-slug .content-section .small-description .form-buttons button img{
+    width: 25px;
+    height: auto;
+    filter: invert(1);
+    vertical-align: text-top;
+}
+@media screen and (max-width:992px) {
+    .colleges-slug .banner-img{
+        height: 300px;
+    }
+}
+@media screen and (min-width:992px) {
+    .colleges-slug .content-section .small-description table tr th {
+        white-space: nowrap;
+    }
+    .colleges-slug .content-section .small-description table tr td {
+        min-width: 200px;
+        
+    }
+}

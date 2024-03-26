@@ -1,0 +1,342 @@
+@media (max-width: 1600px) {
+
+    .banner-box h1 {
+        font-size: 5rem;
+        max-width: 318px;
+    }
+
+    .success .slick-current {
+      min-height: 349px;
+    }
+
+    .banner_part {
+        max-width: 490px;
+        padding: 4.4rem;
+    }
+
+    .banner-box h5 {
+        font-size: 1.7rem;
+    }
+
+    .banner-box h4 {
+        font-size: 1.8rem;
+    }
+
+    .banner_btn a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.7rem;
+    }
+
+    .logo {
+        padding: 2rem 0rem 0rem 4rem;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    section {
+        padding: 7.7rem 0;
+    }
+
+    .move {
+        padding-bottom: 12rem;
+    }
+
+    .success .slick-list {
+        height: 366px;
+      }
+
+    .academic {
+        height: 69vh;
+    }
+
+    .recruiters .move_slider .slick-dots {
+        bottom: -28px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .logo {
+        padding: 2rem 0rem 0rem 2rem;
+    }
+
+    .image_part_acade {
+        width: 360px;
+    }
+
+    .image_content p {
+        font-size: 2rem;
+    }
+
+    .academic {
+        height: 80vh;
+    }
+
+    .success .slick-list {
+        height: 428px;
+    }
+
+    .success .slick-current {
+        min-height: 350px;
+    }
+
+    .move_slider .icon {
+        max-width: 391px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .logo img {
+        width: 85px;
+    }
+
+    .banner_part {
+        max-width: 400px;
+    }
+
+    .move_slider .icon img {
+        width: 40px;
+    }
+
+    .move_slider .icon p {
+        font-size: 1.4rem;
+    }
+
+    .recruiters .move_slider .icon img {
+        width: 110px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .banner-box h1 {
+        font-size: 3rem;
+        max-width: 100%;
+      }
+
+      .banner_part {
+        max-width: 100%;
+        left: 0;
+        padding: 3rem;
+      }
+
+      section {
+        padding: 3.7rem 1rem;
+      }
+
+      .heading_top {
+        padding-bottom: 4rem;
+      }
+
+      .image_part_acade {
+        width: 100%;
+        margin: 4px 0;
+      }
+
+      .marge_button_one svg, .marge_button_three svg{
+        width: 8px;
+      }
+
+      .marge_button_three {
+        position: absolute;
+        bottom: 0;
+        transform: translate(-50%);
+        left: 50%;
+      }
+
+      .marge_button_one .slick-arrow {
+        width: 28px;
+        height: 28px;
+      }
+
+      .academic {
+        height: auto;
+        padding-bottom: 8rem;
+      }
+
+      .recruiters {
+        padding: 3rem;
+        position: relative;
+        padding-bottom: 7rem;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+    .logo {
+        top: -108px;
+      }
+
+      .banner_img {
+        height: 69vh;
+        max-width: 100%;
+        margin-top: 10rem;
+      }
+
+      .success .slick-list {
+        height: 375px;
+      }
+
+      .marge_button .slick-arrow, .marge_button_one .slick-arrow, .marge_button_three .slick-arrow{
+        width: 28px;
+        height: 28px;
+      }
+
+      .marge_button_three  {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        bottom: 28px;
+}
+      .marge_button_three  svg{
+        fill: #c64327;
+}
+
+.marge_button_three .slick-arrow:hover {
+    background: #c64327;
+  }
+.marge_button_three .slick-arrow:hover svg {
+    fill: #fff;
+  }
+      .marge_button_three .slick-arrow {
+  border: 2px solid #c64327;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+      .marge_button svg {
+        width: 8px;
+      }
+
+      .move_slider{
+        display: none;
+      }
+
+      .first_row:nth-child(1) {
+        border: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .move {
+        padding-bottom: 10rem;
+        position: relative;
+      }
+
+      .icon img {
+        height: 40px;
+      }
+
+      .recruiters .icon img {
+        height: auto;
+        object-fit: scale-down;
+      }
+
+      .icon p {
+        font-size: 1.4rem;
+      }
+      .first_row {
+        display: flex;
+        justify-content: center;
+        gap: 0 4rem;
+      }
+
+      .icon {
+        display: flex;
+        align-content: center;
+        gap: 0 0.5rem;
+      }
+
+
+      .marge_button_two .slick-arrow {
+        border: 2px solid #c64327;
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+        /* border: rebeccapurple; */
+        border-radius: 50%;
+    }
+    
+    .marge_button_two .slick-arrow:hover {
+        background: #c64327;
+    }
+    
+    
+    
+    .marge_button_two .slick-arrow:hover .cls-2 {
+        fill: #ffffff;
+    }
+    
+    .marge_button_two {
+        position: absolute;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%);
+      }
+
+      .marge_button_one {
+        right: unset;
+        top: unset;
+        bottom: -10%;
+        transform: translate(-50%);
+        left: 50%;
+      }
+
+      .marge_button{
+        right: unset;
+        top: unset;
+        bottom: -5%;
+        transform: translate(-50%);
+        left: 50%;
+      }
+    
+    .marge_button_two .cls-2 {
+        fill: #c64327;
+        transition: all 0.3s ease-in;
+    }
+    
+    
+    .marge_button_two svg {
+        width: 8px;
+    }
+
+
+    p {
+        font-size: 1.4rem;
+      }
+
+      .recruiters  .icon img {
+        height: auto;
+      }
+
+      .move_slider-2, .move_slider-3{
+        display: block;
+    }
+
+    .img_stu {
+      width: 85px;
+      height: 85px;
+    }
+}

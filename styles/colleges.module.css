@@ -1,0 +1,356 @@
+.colleges-slug{
+    padding-bottom: 2.5rem;
+}
+.colleges-slug .banner-img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.colleges-slug .heading-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* margin-bottom: 1rem; */
+}
+.colleges-slug .clg-hero-section {
+    padding: 1.5rem 5rem;
+    border-bottom: 1px solid #dee2e6;
+     position:absolute;
+     bottom:0;
+     left:0;
+     right:0;
+     background:rgba(255,255,255,0.95)
+}
+@media screen and (max-width: 992px){
+    .colleges-slug .clg-hero-section{
+        padding: 5rem;
+    }
+}
+@media screen and (max-width: 786px){
+    .colleges-slug .clg-hero-section{
+        padding: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .colleges-slug .clg-hero-section{
+        padding: 1rem !important;
+    }
+}
+
+
+
+.colleges-slug .clg-hero-section .heading-section .left-div{
+    width: 100px;
+    border: 1px solid gainsboro;
+}
+.colleges-slug .clg-hero-section .heading-section .left-div img{
+    width: 100%;
+    height: auto;
+}
+.colleges-slug .clg-hero-section .heading-section .right-div{
+    width: calc(100% - 100px);
+    padding-left: 1rem;
+}
+
+.colleges-slug .clg-hero-section .heading-section .right-div img{
+    width: 20px;
+    height: auto;
+    margin:0 5px;
+}
+.colleges-slug .content-section .description-section{
+    text-align: justify;
+    /* border: 1px solid rgb(239, 227, 227); */
+    padding:1rem 0rem;
+}
+.colleges-slug .content-section .small-description h2{
+    margin: 2rem 0rem 1rem 0rem;
+}
+.colleges-slug .content-section .small-description p{
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.colleges-slug .content-section .small-description .form-buttons{
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100px; */
+    justify-content: space-between;
+    /* background-color: red; */
+
+    
+}
+.colleges-slug .content-section .small-description .form-buttons button{
+    padding: 0.5rem;
+    background-color: #0151c1;
+    color: #fff;
+    border-radius: 25px;
+}
+.colleges-slug .content-section .small-description .form-buttons button img{
+    width: 25px;
+    height: auto;
+    filter: invert(1);
+    vertical-align: text-top;
+}
+
+.description-section h3{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.tabs-bar{
+    margin: 10px 0;
+    background-color: white;
+    position: sticky;
+    top: 8vh;
+    background: white;
+    font-size: 17px;
+    margin: 0 5rem;
+    z-index: 9;
+}
+
+.courses-div{
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.courseCardBox{
+    border: 1px solid #d9d9e5;
+    background-color:#fbfbfc;
+    padding: 20px 30px 15px 20px;
+    margin-bottom: 20px;
+}
+.courseCardBox .cardHeading{
+    font-weight: 700;
+    color: #050038;
+    font-size: 18px;
+}
+
+.courseCardBox .cardHeading span {
+    /* .courseCardBox .cardHeading a { */
+    color: #3f53d9;
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+}
+
+.courseCardBox .courseCardDetails{
+    color: #717171;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.courseCardBox .courseDetailLeft{
+    display: inline-flex;
+    /* width: calc(100% - 28%); */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.courseCardBox .cardChips{
+    margin-top: 10px;
+}
+
+.courseCardBox .cardChips > ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.courseCardBox .cardChips>ul>li {
+    padding: 4px 7px;
+    border: 1px solid #d9d9e5;
+    background-color: #e9ecff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: #717171;
+}
+
+.courseDetailLeft p{
+    margin-bottom: 12px;
+  
+}
+.courseDetailLeft p .collegeDetail_detailStrong{
+    color:black;
+    font-weight: 500;
+}
+.courseCardBox .courseCardDetails button {
+    display: block;
+    width: 173px;
+    height: 40px;
+    margin: 1rem 0;
+}
+.collegeDetail_classNotToggled table{
+    /* height: 170px; */
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: block;
+}
+.collegeDetail_classNotToggled tbody{
+    display: block;
+}
+.collegeDetail_classNotToggled tr {
+    width: 48%;
+    background-color: white;
+    float: left;
+    border-bottom: 1px solid gray;
+    margin: 0 20px 20px 0;
+    padding-bottom: 20px;
+}
+.collegeDetail_classNotToggled td {
+    border: 0;
+    padding: 0;
+}
+.collegeDetail_courseName {
+    float: left;
+    width: 45%;
+    cursor: pointer;
+}
+.collegeDetail_courseCount {
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+}
+.collegeDetail_courseFees {
+    width: 45%;
+    text-align: right;
+    padding-right: 20px;
+}
+.collegeDetail_customSpan {
+    color: grey;
+    font-size: 12px;
+}
+.collegeDetail_price {
+    color: orangered;
+    font-weight: 700;
+    display: block;
+}
+
+
+
+.img-div-counsellor::before{
+    content: "";
+    width: 95px;
+    height: 95px;
+    background-color: rgb(0, 123, 255);
+    position: absolute;
+    left: 50%;
+    bottom: -38%;
+    border-radius: 50%;
+    transform: translate(-50%,-5%);
+}
+
+@media screen and (max-width:992px) {
+    .colleges-slug .banner-img{
+        height: 300px;
+    }
+    .tabs-bar{
+        position: sticky;
+        top: 5vh;
+        margin: 0;
+    }
+    .courseCardBox .cardHeading{
+    margin-bottom: 15px;
+    }
+    .courseCardBox .courseCardDetails{
+        align-items: flex-start;
+    margin-bottom: 15px;
+    }
+    .courseCardBox .courseDetailLeft{
+        display: block;
+    }
+}
+    
+@media screen and (max-width:767px) {
+    .colleges-slug .content-section .small-description .form-buttons button{
+        padding: 0.5rem;
+        background-color: #0151c1;
+        color: #fff;
+        border-radius: 25px;
+        bottom: 10px;
+        position:fixed;
+        z-index: 9;
+        width: 90%;
+    }
+    .colleges-slug .content-section .small-description .form-buttons{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colleges-slug .heading-section .right-div h1{
+        font-size: calc(100% - 3%);
+    }
+    .tabs-bar{
+        position: sticky;
+        top: 6vh;
+        margin: 0;
+    }
+    .courseCardBox{
+        max-height: unset;
+        padding: 15px 10px;
+    }
+    /* .courseCardBox .courseCardDetails>div{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    } */
+    /* .courseCardBox .courseCardDetails .courseDetailLeft>div p {
+        display: flex;
+        width: 47%;
+        flex-direction: column;
+        line-height: 1.5;
+    } */
+    .courseCardBox .courseCardDetails{
+        flex-direction: column;
+    }
+    .courseCardBox .courseDetailLeft{
+       
+        width: 100%;
+    }
+    .collegeDetail_classNotToggled tr {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+   
+}
+
+.commonStickyFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 1; */
+    /* visibility: visible; */
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    z-index: 9;
+    padding: 5px 15px;
+    overflow: hidden;
+    /* top: auto; */
+    box-shadow: 0 0 20px white;
+}
+.commonStickyFooter button{
+    background-color: #0151c1;
+    color: #fff;
+    /* width: 200px; */
+    height:100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s;
+    line-height: 1;
+    margin: 0rem 0.5rem;
+}

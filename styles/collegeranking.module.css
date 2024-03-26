@@ -1,0 +1,28 @@
+.college-ranking .chip-stack{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.college-ranking .chip-stack .chip{
+    padding: 0.5rem 1rem;
+    /* width: 170px; */
+    font-weight: 500;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #0151c1;
+    color: #0151c1;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    cursor: pointer;
+}
+.college-ranking .chip-stack .chip.active{
+    background-color: #0151c1;
+    color: #fff;
+}
+.college-ranking .clg-name a{
+    text-decoration: none;
+}

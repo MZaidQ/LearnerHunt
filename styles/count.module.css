@@ -1,0 +1,43 @@
+.blue-div-content {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+.blue-div-content h3 {
+    color: white;
+}
+
+.heading {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size:1.5rem;
+    font-weight: 80;
+}
+
+
+.mainBox {
+    padding: 2rem;
+    background-color: #0151c1;
+}
+
+.column {
+    border-right: 2px solid #c4c4c4;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    font-size:1rem;
+}
+}

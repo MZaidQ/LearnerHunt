@@ -1,0 +1,22 @@
+
+.cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    /* background-color: red; */
+}
+
+.cta-btn button{
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    box-shadow: none;
+    outline: none;
+    background-color:var(--primary) ;
+    transition: 0.3s;
+}
+/* .cta-btn button:hover{
+    background-color: #fff;
+} */

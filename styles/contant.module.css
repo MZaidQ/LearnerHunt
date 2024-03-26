@@ -1,0 +1,55 @@
+/* @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500); */
+.contact2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+	padding: 60px 0;
+  margin-bottom: 170px;
+  background-position: center top;
+}
+
+.contact2 h1,
+.contact2 h2,
+.contact2 h3,
+.contact2 h4,
+.contact2 h5,
+.contact2 h6 {
+  color: #3e4555;
+}
+
+.contact2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+
+.contact2 .contact-container {
+  position: relative;
+  top: 200px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  margin: auto;
+  min-width: 90%;
+}
+
+
+.linkButton {
+    background-color: #0151c1;
+  }
+  .linkButton:hover {
+    border:1px solid #0151c1;
+    color: #0151c1;
+    background-color: transparent;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

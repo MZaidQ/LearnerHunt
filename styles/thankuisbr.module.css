@@ -1,0 +1,113 @@
+.thankyou-page {
+    background-image: url(/assets/images/banner.jpg);
+    height: 100vh;
+    position: relative;
+    background-color: #c0424d;
+    text-align: center;
+    background-size: cover;
+}
+
+.thankyou-page .banner {
+    background-image: url(/assets/images/banner.jpg);
+    min-height: auto;
+    position: relative;
+    background-color: #c0424d;
+    background-size: cover;
+    height: 100vh;
+}
+.banner {
+    background-image: url(/public/assets/images/banner1.jpg);
+    min-height: 644px;
+    position: relative;
+    background-size: 100%;
+    background-color: #c0424d;
+}
+.thankyou-page .logo {
+    width: 520px;
+    margin: 40px auto;
+}
+.logo {
+    background-image: url(/assets/images/nba-logo.png);
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    background-position: right 30px;
+    background-size: 100px;
+   
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-cont {
+    margin: 40px 0 0 0;
+}
+.pgdm {
+    font-size: 50px;
+}
+
+.pgdm {
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffce41;
+}
+.pg-txt {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+.pg-txt {
+
+    color: #fff;
+    padding-top: 5px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.duration {
+    font-size: 18px;
+}
+
+.duration {
+    color: #fff;
+}
+
+.thankyou-page .banner a {
+    color: #f9a61a;
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .thankyou-page .logo {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        margin: 20px auto 10px auto;
+        background-position: right 0;
+        background-size: 60px;
+        padding-bottom: 10px;
+    }
+    .logo img {
+        width: 200px;
+    }
+    .banner-cont {
+        margin: 10px 0 0 0;
+    }
+    .boxthank {
+        background: #00000063;
+        padding: 20px 10px;
+        margin-bottom: 10px;
+    }
+    .boxthank .pgdm {
+        font-size:54px ;
+    }
+    .pg-txt {
+        font-size: 23px;
+        text-align: center;
+        padding-bottom: 6px;
+    }
+  
+}

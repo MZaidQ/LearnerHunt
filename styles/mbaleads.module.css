@@ -1,0 +1,120 @@
+.Mba-body{
+    background-color: #ecf0f1;
+}
+
+.mba-nav{
+    background-color: white;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.mba-weTieup{
+    background-color: #fff;
+    padding: 1rem 1rem;
+    margin: 0rem 1rem ;
+}
+.Image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Image-div p {
+    text-align: center;
+}
+.Tieup-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Tieup-img img{
+        width: 100%;
+    }
+    .mba-nav{
+        height: 8vh;
+        padding: 1rem;
+        justify-content: center;
+    }
+    .mba-nav p{
+        display: none;
+    }
+  }
+
+.mba-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacaca;
+    padding: 0.1rem 0;
+}
+.mba-Testimonials{
+    background-color: #ecf0f1;
+    padding: 30px 20px 10px;
+}
+
+.mba-heading {
+    margin: 0px;
+    line-height: 150%;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 700;
+}
+.mba-centerlized{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.mba-borderLine{
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #791120;
+    width: 10%;
+    display: inline-block;
+    line-height: 3px;
+    height: 0px;
+    vertical-align: middle;
+}
+.mba-studentname{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.Landing-button{
+    background-color: #fff;
+}
+
+.npfWidgetButton{
+    padding-left: 11px !important;
+    flex: right;
+    position: fixed !important;
+    right: -50px !important;
+    transform: rotate(270deg) !important;
+    top: 50% !important;
+    background-color: #972836 !important;
+    z-index: 999999;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.33;
+    padding: 8px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+}
+
+.mba-student{
+    border-radius: 50%;
+    object-fit: cover;
+}

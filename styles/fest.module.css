@@ -1,0 +1,274 @@
+
+  .navbar {
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    z-index: 100;
+  }
+  
+  .logo img {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .contactInfo {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  .contactInfo p{
+    display: flex;
+    margin-bottom: 0;
+    padding: 0rem 0rem;
+  }
+
+  .registerButton button {
+    padding: 8px 16px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  /* .blink button {
+    animation: changeColor 2s linear infinite alternate; 
+  } */
+ 
+  
+  /* Blink animation */
+  /* @keyframes changeColor {
+    0% {
+      color: yellow;
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: yellow;
+    }
+  } */
+
+
+  .banner {
+    width: 100%;
+    /* height: 90vh; */
+    /* max-height: 90vh; */
+    position: relative;
+    margin-bottom: 2rem;
+  }
+
+  .content{
+    width: 100%;
+    background-color:#f7a70d;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem;
+    margin:0rem 0rem 0rem 0rem;
+  }
+  .content h1{
+    /* color:#fff; */
+    font-size: 28px;
+  }
+  /* .content p{
+    color:#f8f8f8;
+  } */
+  
+   .banner .webbanner {
+    width: 100%;
+    /* height: 90vh; */
+    display: block;
+    /* Add any additional styling for the image */
+  }
+  .banner .mobbanner{
+    display: none;
+  }
+
+  .BschoolCard img{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+  .edufestPhoto{
+    margin-bottom:2rem;
+    
+  }
+  .edufestPhoto h2{
+    margin-bottom:0rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+ /* styles.module.css */
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 350px; /* Set your desired width */
+  height: 240px; /* Set your desired height */
+  object-fit: cover; /* Maintain aspect ratio without stretching */
+  border-radius: 25px;
+}
+
+ .Timerclass span{
+  font-size: 40px;
+  font-weight: 500;
+ }
+.Hurry{
+  margin: 16px 0px 0px 0px;
+  color: #b00020;
+  font-size: 26px;
+  font-weight: 500;
+}
+.secure{
+    margin: 16px 0px 0px 25px;
+    color: #b00020;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.benefits{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .benefits h3{
+    margin: 1rem 0;
+    font-size: 18px;
+  }
+  .cards{
+    margin:1rem 0;
+  }
+  .TopBschool h2{
+    margin: 20px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* font-size: 40px; */
+  }
+  .benefitscontainer{
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 0 4px 4px rgba(29,29,27,.16);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 2rem;
+  }
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .blink {
+    animation: blink 1s infinite;
+  }
+  .Addressdate{
+    border: 1px solid #C0C2C9;
+    background: white;
+    margin:0rem 0rem 2rem 0;
+  }
+  .Addressdate h2{
+    margin: 8px 0px 0px 0px;
+    color: #5D5D5B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0.5rem 1rem;
+  }
+  .Addressdate p{
+    margin: 8px 0px 0px 0px;
+    color: #1D1D1b;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 1rem ;
+
+  }
+  .logocontainer{
+    background-color: #fff;
+  }
+
+  .photocontainer{
+    background-color: #f2f5fa;
+    margin:2rem 0rem;
+
+  }
+  .edufestPhoto{
+    margin:"1rem 0rem"
+  }
+  .react-multi-carousel-list  {
+    height: 50vh !important;
+  }
+  /* .custom-dot-list-style{
+    position: relative;
+    bottom: -5rem !important;
+    margin: 2rem 0rem !important;
+  } */
+  @media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 10px 0px;
+      }
+    .logo img {
+        width: 120px; /* Adjust the width as needed */
+      }
+      .contactInfo {
+        display: block;
+      }
+      .contactInfo p{
+       font-size: 10px;
+      }
+      .contactInfo .secondphoneno{
+        margin: 0px 25px;
+      }
+      .registerButton button {
+        padding: 4px 8px;
+        font-size: 14px;
+
+      }
+        .banner .mobbanner {
+            width: 100%;
+            /* height: 90vh; */
+            display: block;
+          }
+          .banner .webbanner {
+            display: none;
+          }
+          .content h1{
+            font-size: 18px;
+          }
+          .benefits h2{
+            font-size: 24px;
+          }
+          .TopBschool h2{
+            font-size: 24px;
+          }
+          .edufestPhoto h2{
+           font-size: 24px;
+          }
+          .Timerclass span{
+            font-size: 24px;
+          }
+          .Hurry{
+            font-size: 17px;
+          }
+          .secure{
+            margin: 16px 0px 0px 0px;
+            font-size: 14px;
+          }
+          .Addressdate p{
+            font-size: 16px;
+          }
+        }

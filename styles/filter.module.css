@@ -1,0 +1,163 @@
+.filterdropdownline {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filterdropdown {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.filterdropdown.show {
+    /* overflow: auto; */
+    padding: 0.5rem;
+    height: 200px;
+}
+
+.filter-list-container {
+    padding: 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background: var(--whiteColor);
+    height: 307px;
+}
+
+.filter-list-container .filter-option {
+    padding: 9px 13px;
+    margin-bottom: 0;
+    font-weight: 700;
+    cursor: pointer;
+    color: #383838;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.filter-list-container .filter-option .icon {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 11px;
+    height: 11px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-position: -137px -51px;
+    transition: .2s all;
+}
+
+.filter-list-container .filter-option .icon {
+    background: url(https://static.collegedekho.com/static-up/images/college-listing-icons.6b4b3a924ef4.png) no-repeat 0 0;
+}
+
+.advance-filter-main {
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+
+    .advance-filter-main {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: -webkit-right;
+    }
+
+    .advance-filter {
+        width: 50%;
+        /* position: absolute; */
+        top: 0%;
+        right: 0%;
+        color: black;
+        background: white;
+        border-radius: 25px;
+        padding: 0.5rem;
+        text-align: end;
+        border: 1px solid #ccc;
+        font-weight: bold;
+        color: #3f53d9;
+        box-shadow: 0 3px 9px rgb(0 0 0 / 13%);
+    }
+
+    .filterdropdown {
+        width: 65%;
+    }
+
+    .filterdropdownline {
+        width: 30%;
+    }
+
+    .filterdropdown.show {
+        /* overflow: auto; */
+        display: none;
+        padding: 0.5rem;
+        height: auto;
+        position: absolute;
+        left: 31%;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .advance-filter-main {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: -webkit-right;
+    }
+
+    .advance-filter {
+        width: 45%;
+        /* position: absolute; */
+        top: 0%;
+        right: 0%;
+        color: black;
+        background: white;
+        border-radius: 25px;
+        padding: 0.5rem;
+        text-align: end;
+        border: 1px solid #ccc;
+        font-weight: bold;
+        color: #3f53d9;
+        box-shadow: 0 3px 9px rgb(0 0 0 / 13%);
+        margin-top: 10px;
+    }
+
+    .filterdropdown {
+        width: 65%;
+    }
+
+    .filterdropdownline {
+        width: 30%;
+        border: 0.1px solid #717171;
+        padding: 10px;
+        border-top: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .advance-filter-main {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: -webkit-right;
+    }
+
+    .filterdropdown.show {
+        /* overflow: auto; */
+        display: none;
+        padding: 0.5rem;
+        height: auto;
+        position: absolute;
+        left: 31%;
+        top: 60px;
+    }
+
+}

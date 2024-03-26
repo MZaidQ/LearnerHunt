@@ -1,0 +1,86 @@
+
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    position: relative;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(203, 198, 198);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    /* max-height: 500px; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 100%;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+
+  }
+  
+  .fullName {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  .detailLabel {
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+  }
+  
+  .detailValue {
+    color: #777;
+  }
+  
+  .buttonContainer {
+    margin-top: auto;
+  }
+  .linkButton {
+    background-color: #0151c1;
+  }
+  .linkButton:hover {
+    border:1px solid #0151c1;
+    color: #0151c1;
+    background-color: transparent;
+  }

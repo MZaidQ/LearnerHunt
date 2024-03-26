@@ -1,0 +1,40 @@
+.formdiv{
+  padding: 2rem;
+}
+.fieldContainer {
+    margin-bottom: 1rem;
+  }
+  
+  .addButton {
+    color: blue;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .removeButton{
+    position: relative;
+    top: 32px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+ 
+
+  .form-group{
+    margin-bottom: 1rem;
+}
+
+.error{
+    color: red;
+}
+
+.labelname{
+    margin: 5px 0px;
+    font-weight: bold;
+}

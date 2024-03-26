@@ -1,0 +1,58 @@
+.add-user{
+    /* background-color: red; */
+    height: inherit;
+    overflow: auto;
+}
+.add-user .form-div{
+    /* width: 60%; */
+    padding: 2rem;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+
+.error{
+    color: red;
+}
+
+.labelname{
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+
+.addButton {
+    color: blue;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .removeButton{
+    position: relative;
+    top: 32px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dltIcon{
+    height: 100%;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.select-clg{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-clg p{
+ color:red;
+}

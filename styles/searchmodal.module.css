@@ -1,0 +1,71 @@
+.custom-search-modal input {
+    border: none;
+}
+
+.custom-search-modal input:focus {
+    box-shadow: none;
+}
+
+.custom-search-modal input::placeholder {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(114, 112, 112);
+}
+
+/* .custom-search-modal .results .college img {
+    width: 60px;
+    height: auto;
+    margin-right: 0.5rem;
+} */
+.custom-search-modal .results a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.custom-search-modal .results .college {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-search-modal .results .college:hover {
+    background-color: #f8f8f8;
+}
+.custom-search-modal .results .college span:nth-child(2) {
+    background-color: green;
+    padding: 0.2rem 1rem;
+    border-radius: 25px;
+    color: #fff;
+}
+.custom-search-modal .results .trending-searches span {
+    font-size: 30px;
+    padding-left: 1rem;
+    font-weight: 500;
+    background: linear-gradient(80deg, rgba(0,212,255,1) 12%, rgba(61,121,217,1) 47%, rgba(116,52,230,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.custom-search-modal .results .trending-searches ul{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+@media screen and (max-width:992px) {
+    .custom-search-modal input::placeholder{
+        font-size: 1rem;
+    }
+    .custom-search-modal .results .trending-searches span{
+        font-size: 20px;
+    }
+    .custom-search-modal .results .trending-searches ul{
+        font-size: 16px;
+    }
+    .custom-search-modal .results .college{
+        font-size: 14px;
+    }
+}

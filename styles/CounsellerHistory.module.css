@@ -1,0 +1,187 @@
+.tabss{
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); 
+  
+  }
+  
+  
+  .star{
+    position: absolute;
+    top: 2rem;
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 3vh;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .left-img{
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+  }
+  
+  .starr{
+    color: white;
+    font-size: 15px;
+  }
+  
+  .cards{
+    /* position: relative;  */
+    width: 300px;
+     height: 450px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     border-radius: 10px;
+     position: relative;
+     overflow: visible;
+  }
+  
+  .btn{
+    position: absolute;
+    bottom: -1rem;
+  }
+  
+  .btnn{
+    text-transform: capitalize;
+    border-radius: 10px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  .icon{
+    font-size: 30px;
+  }
+  
+  
+  
+  .card{
+    /* position: relative; */
+    width: 100%;
+    border: none;
+  }
+  
+  
+  .basic-details{
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 2rem ;
+    background-color: #fff;
+    margin-bottom: 40px;
+    }
+    
+  
+  .tab{
+    color: black;
+    font-size: 14px;
+     font-weight: 600;
+     text-transform: capitalize;
+  
+  }
+  
+
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  .head{
+    font-weight: 650;
+  }
+  
+  .heading{
+    font-weight: 700;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* ab isko dekh lo m padh lunga bd m     
+
+agr kisi box ko position absolute rakhte h to wo wo parent ko apna base mann leta h 
+
+agr hum phle kisi box ko relative rakh le or uske ander ke box ko absolute bnate hai to fir uska parent relative wala baannn jata  aese kro isko ho jaega me nhi dekh rha
+
+*/
+
+/* phle code ko samj lo fir css  lgao
+kisko relative bnana hai kisko absolute phle tags dekh :
+card ko re;lative bnana h.... */
+
+/* Add your existing styles here */

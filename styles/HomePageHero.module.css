@@ -1,0 +1,174 @@
+.hero-section {
+    /* min-height: 90vh; */
+    padding: 2.5rem 0rem;
+    background-image: url('/assets/images/bg-1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #f3f3f3; */
+    position: relative;
+    overflow: hidden;
+
+}
+.herosection-desc{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.herosection-desc h1{
+    color:white;
+}
+.herosection-desc p{
+    color:whitesmoke;
+    font-style: italic;
+}
+
+/* .herosection-desc ul{
+    color:white;
+    font-style: italic;
+} */
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.hero-section .buttons-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 13px;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-section .buttons-section button {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 0.5rem;
+    color: #0151c1;
+    border-color: #0151c1;
+    transition: 0.2s;
+    white-space: nowrap;
+}
+
+.hero-section .buttons-section button:hover {
+    background-color: #0151c1;
+    color: #fff;
+}
+
+.hero-section .buttons-section button.active {
+    background-color: #0151c1;
+    color: #fff;
+}
+
+.hero-section .hero-form {
+    padding: 1rem;
+    border: 1px solid #ededed;
+    background-color: #ffffffed;
+    border-radius: 5px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.hero-section .hero-form .heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0151c1;
+    border-bottom: 2px solid #ededed;
+    padding-bottom: 0.3rem;
+}
+
+.hero-section .hero-form .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.hero-section .hero-form .submit-btn input {
+    padding: 0.5rem 1rem;
+    background-color: #0151c1;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #0151c1;
+    transition: 0.2s;
+}
+
+.hero-section .hero-form .submit-btn input:hover {
+    background-color: #fff;
+    color: #0151c1;
+}
+
+.hero-section .hero-form .free-counselling {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section .hero-form .free-counselling p {
+    margin-bottom: 0;
+}
+
+.hero-section .hero-form .free-counselling p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-section .search-box {
+    /* background-color: red; */
+    margin: 2rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .search-box .search-bar {
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem;
+    font-size: 14px;
+    color: #6b6969;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.hero-section .search-box .search-btn img {
+    width: 20px;
+    height: auto;
+    margin-right: 0.5rem;
+    vertical-align: text-top;
+    filter: invert(1);
+}
+
+.hero-section .search-box .search-btn {
+    background-color: #0151c1;
+    padding: 1rem;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.error-border {
+    border: 1px solid red;
+  }
+  
+@media screen and (max-width:768px) {
+    .hero-section .buttons-section {
+        justify-content: flex-start;
+    }
+
+    .hero-section .search-box .search-bar {
+        font-size: 0.8rem;
+    }
+}
